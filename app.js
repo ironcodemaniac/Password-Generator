@@ -16,18 +16,12 @@ function getPasswords(){
     randomPassword += arrayChar[getRandomIndex()];
     }
     return randomPassword;
-
 }
 
 function generatePasswords(){
-    let firstPassword = getPasswords();
-    let secondPassword = getPasswords();
-    let thridPassword = getPasswords();
-    let fourthPassword = getPasswords();
-
-    document.getElementById("result-box-one").textContent = firstPassword;
-    document.getElementById("result-box-two").textContent = secondPassword;
-    document.getElementById("result-box-three").textContent = thridPassword;
-    document.getElementById("result-box-four").textContent = fourthPassword;
+    document.getElementById("result-box-one").textContent = getPasswords();
+    document.getElementById("result-box-two").textContent = getPasswords();
+    document.getElementById("result-box-three").textContent = getPasswords();
+    document.getElementById("result-box-four").textContent = getPasswords();
 }
 
