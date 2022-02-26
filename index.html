@@ -18,6 +18,30 @@
         <h1>random password</h1>
         <p>Never use an insecure password again</p>
         <!-- Use onclick to call the function in JS, so 4 different passwords would be push to below password boxes  -->
+        <div class="radio-btn">
+          <p>--Please select the desired length of your password--</p>
+          <input
+            type="radio"
+            name="inputlength"
+            id="passwordlength-5-El"
+            value="5"
+          />
+          <label for="passwordlength-El">5</label>
+          <input
+            type="radio"
+            name="inputlength"
+            id="passwordlength-10-El"
+            value="10"
+          />
+          <label for="passwordlength-El">10</label>
+          <input
+            type="radio"
+            name="inputlength"
+            id="passwordlength-15-El"
+            value="15"
+          />
+          <label for="passwordlength-El">15</label>
+        </div>
         <button id="btn" onclick="generatePasswords()">
           <i class="fas fa-bolt"></i>Generate Passwords
         </button>

@@ -41,7 +41,7 @@ body {
 
 .main {
   padding-bottom: 2em;
-  border-bottom: 1px solid var(--line-stroke);
+  border-bottom: 2px solid var(--line-stroke);
 }
 
 .main h1 {
@@ -56,13 +56,28 @@ body {
 .main p {
   font-size: 1.25rem;
   color: #949494;
-  margin-bottom: 0.875em;
+  margin-bottom: 1em;
+}
+
+.radio-btn {
+  margin-bottom: 3em;
+}
+
+.radio-btn p {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.radio-btn label {
+  font-size: 0.8rem;
+  margin-right: 1em;
 }
 
 button {
   display: flex;
   align-items: center;
   padding: 1em 2.5em;
+  margin-bottom: 0.875em;
   background: var(--btn);
   color: white;
   font-family: "Inter", sans-serif;
